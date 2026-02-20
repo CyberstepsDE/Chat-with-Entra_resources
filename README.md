@@ -2,11 +2,10 @@
 
 This document outlines the architecture and key guidelines for the Entra ID security agent within the context of the lab environments. The implementation scripts can be found in the `entra-security-agent` directory.
 
----
 
 ## 1. Architecture and App Registration Location
 
-![Architecture.jpg](Architecture.jpg)
+![Architecture.png](Architecture.png)
 
 This illustration shows where the key system elements are located and the role played by the **App Registration**:
 
@@ -34,7 +33,7 @@ To ensure accurate and reliable testing, the environments are strictly separated
 * **Cybersteps (Secure):** This is the production base for the AI. It remains clean and secure.
 * **Pearson (Vulnerable):** This is the laboratory environment (the "proving ground"). We intentionally deploy **EntraGoat** here to introduce artificial, controlled security vulnerabilities. The deployed Agent's task is to identify these configuration risks.
 
----
+
 
 ## Running the Code (The Agent)
 
