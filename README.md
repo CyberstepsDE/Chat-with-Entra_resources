@@ -5,7 +5,7 @@ This document outlines the architecture and key guidelines for the Entra ID secu
 
 ## 1. Architecture and App Registration Location
 
-![Architecture.png](Architecture.png)
+![architecture.png](architecture.png)
 
 This illustration shows where the key system elements are located and the role played by the **App Registration**:
 
